@@ -1,3 +1,4 @@
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+# This is my personal github pages repo
+## [Visit my page here](https://harbirbajwa.com)
+
+This hosts my static personal site using my custom domain.
