@@ -14,14 +14,15 @@
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/android-chrome-192x192.png" type="image/x-icon">
     <title>Harbir's Website</title>
 </head>
 
 <body>
     <header>
         <div class="social-icons">
-            <a class="linkItem" href="mailto:harbirbajwa@hotmail.com?subject=Whats updog?" target="_blank" title="Email"> 
+            <a class="linkItem" href="mailto:harbirbajwa@hotmail.com?subject=Whats updog?" target="_blank"
+                title="Email">
                 <i class="fa fa-envelope"></i>
             </a>
             <a class="linkItem" href="https://github.com/harbirb" target="_blank" title="Github">
@@ -37,66 +38,56 @@
         </div>
     </header>
     <main>
-        <div>
-            <h2 class="darkerText">Hi, I'm Harbir</h2>
-            <section>
-                <br>
-                <p>I'm finishing up my last year in the BCS program @ UBC. I currently work at the
-                    BC Liquor Distribution Branch as a Fullstack Developer.
-                    I'm passionate about building cool ideas and learning new things.
-                    Outside of building, I enjoy running and cycling.</p>
-                <br>
-            </section>
-        </div>
+        <section>
+            <h2>Hi, I'm Harbir</h2>
+            <p>I'm finishing up my last year in the BCS program at UBC. I currently work at the
+                BC Liquor Distribution Branch as a Fullstack Developer.
+                I'm passionate about building cool ideas and learning new things.
+                Outside of building, I enjoy running and cycling.</p>
+            <br>
+        </section>
 
-        <section class="projectContainer">
-            <p class="darkerText headerText">Latest Projects:</p>
-            <div class="projectItem">
-                <div>
-                    <p>August 2024</p>
-                    <p><b>MoovIt</b> - Discover your workout soundtrack</p>
-                    <div class="linkContainer">
-                        <a target="_blank" href="https://github.com/harbirb/MoovIt" class="linkItem linkText">
-                            <div>
-                                <i class="fa-brands fa-github"></i>
-                            </div>
-                            <p class="">GitHub</p>
-                        </a>
-                        <a target="_blank" href="https://moovit.onrender.com/" class="linkItem linkText">
-                            <div>
-                                <i class="fa-solid fa-bolt-lightning"></i>
-                            </div>
-                            <p class="">Live</p>
-                        </a>
+
+
+        <section>
+            <h2>Projects</h2>
+            <div class="projectListContainer">
+                <a href="https://github.com/harbirb/MoovIt" class="projectCard">
+                    <div>
+                        <div class="cardTitle">
+                            <h3>MoovIt 🐮</h3>
+                            <p>Aug 2024</p>
+                        </div>
+                        <br>
+                        <p>
+                            <b>Discover your workout soundtrack:</b> Moovit is an application that
+                            integrates with Strava and
+                            Spotify to find the songs that you
+                            listened to during your workouts
+                        </p>
                     </div>
-                </div>
-                <div>
-                    <a href="https://github.com/harbirb/MoovIt">
-                        <img src="/image.png" alt="MoovIt Project Photo" />
-                    </a>
-                </div>
+                </a>
+                <a href="https://github.com/harbirb/http-server" class="projectCard">
+                    <div>
+                        <div class="cardTitle">
+                            <h3>HTTP Server</h3>
+                            <p>Nov 2024</p>
+                        </div>
+                        <br>
+                        <p>
+                            A basic socket server that can serve files over HTTP, written from scratch using C
+                        </p>
+                    </div>
+                </a>
             </div>
         </section>
-        <section>
-            <div>
-            <p class="darkerText headerText">To learn/work on:</p>
-                <p>- Golang</p>
-                <p>- NeetCode 150</p>
-                <p>- Containerization</p>
-                <p>- Homelab (Networking + core Linux skills)</p>
-                <p>- My FTP</p>
 
-            </div>
-        </section>
         <section>
-            <div>
-            <p class="headerText darkerText">Past:</p>
-            <p>- Before CS, I graduated with a BSc with Combined Honours in Chemistry and Biochemistry
-            </p>
-            <p>- My prior work experience includes organic synthesis (enzyme inhibitor design), inorganic chemistry
+            <h2>Past</h2>
+            <p>Before CS, I graduated with a BSc with Combined Honours in Chemistry and Biochemistry.
+                My prior work experience includes organic synthesis (enzyme inhibitor design), inorganic chemistry
                 (Nickel-rich cathode materials), and biochemistry/molecular biology
                 research (enzyme characterization)</p>
-            </div>
         </section>
 
     </main>
